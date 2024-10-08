@@ -626,6 +626,7 @@ Masthead
 	color: #903000;
 }
 
+
 /*--------------------------------------------------------------
 Menu
 --------------------------------------------------------------*/
@@ -680,7 +681,7 @@ Menu
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	#site-navigation{
 		width: 45%;
 	}
@@ -701,7 +702,7 @@ Menu
 		padding: 10px 0;
 	}
 
-	button.menu-toggle:hover {
+	.menu-toggle:hover {
 		display: block;
 		border: none;
 		background: none;
@@ -710,12 +711,20 @@ Menu
 		padding: 10px 0;
 	}
 
-	button.menu-toggle:before {
+	.menu-toggle:before {
 		content: "\f0c9";
 		font: var(--fa-font-solid);
 		margin-right: 4px;
 		font-weight: bold;
 	}
+
+	.toggled .menu-toggle:before {
+		content: "\f00d";
+		font: var(--fa-font-solid);
+		margin-right: 6px;
+		font-weight: bold;
+	}
+
 
 	.main-navigation ul {
 		display: none;
@@ -732,10 +741,6 @@ Menu
 	.nav-menu li {
 		display: block;
 		float: none;
-	}
-	.search-toggle:before {
-		font-size: 15px;
-		top: 15px;
 	}
 }
 
