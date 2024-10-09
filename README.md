@@ -4,7 +4,7 @@ Earmarked by [Refueled](http://refueled.net).
 Earmarked is a clean lightweight, two column theme focusing on your content. Earmarked is based off of a classic WordPress theme, originally designed by Derek Punsalan.
 
 ## Live Demo
-[Live Demo](https://earmarked.refueled.link)
+[Live Demo](https://earmarked-demo.refueled.link/)
 
 ## Files to edit
 
