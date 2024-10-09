@@ -1027,20 +1027,20 @@ Content
    to be flexible at smaller screen sizes while the share
    links remain at a fixed width the whole time */
 .post-footer .share {
-    float: left;
-    width: 220px !important;
+	float: left;
+	width: 220px !important;
 }
 
 .post-footer .share a {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
-    text-decoration: none;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin: 1rem 1.6rem 1.6rem 0;
+	color: #BBC7CC;
+	text-decoration: none;
 }
 
 .post-footer .share a:hover {
-    color: #50585D;
+	color: #50585D;
 }
 
 
@@ -1149,16 +1149,16 @@ Footer
 
 /* The author credit area after the post */
 .post-footer {
-    position: relative;
-    margin: 20px 0 0 0;
+	position: relative;
+	margin: 20px 0 0 0;
 }
 ht: 1.6em;
 }
 
 /* Create some space to the right for the share links */
 .post-footer .author {
-    margin-right: 180px;
-    float: left;
+	margin-right: 180px;
+	float: left;
 }
 
 /* Drop the share links in the space to the right.
@@ -1241,72 +1241,72 @@ created within the Ghost editor. */
 }
 
 .gh-viewport {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .gh-outer {
-    padding: 0 max(4vmin, 20px);
+	padding: 0 max(4vmin, 20px);
 }
 
 .gh-outer .gh-outer {
-    padding: 0;
+	padding: 0;
 }
 
 .gh-inner {
-    margin: 0 auto;
-    max-width: var(--container-width);
-    width: 100%;
+	margin: 0 auto;
+	max-width: var(--container-width);
+	width: 100%;
 }
 
 .gh-main {
-    flex-grow: 1;
+	flex-grow: 1;
 }
 
 .gh-canvas > * {
-    grid-column: main;
+	grid-column: main;
 }
 
 .kg-width-wide,
 .kg-content-wide > div {
-    grid-column: wide;
+	grid-column: wide;
 }
 
 .kg-width-full {
-    grid-column: full;
+	grid-column: full;
 }
 
 /* Default vertical spacing */
 .gh-content > * + * {
-    margin-top: 15px;
-    margin-bottom: 0;
+	margin-top: 15px;
+	margin-bottom: 0;
 }
 
 /* Remove space between full-width cards */
 .gh-content > .kg-width-full + .kg-width-full:not(.kg-width-full.kg-card-hascaption + .kg-width-full) {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 /* Add back a top margin to all headings,
 unless a heading is the very first element in the post content */
 .gh-content > [id]:not(:first-child) {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* Add drop cap setting */
 .post-template .gh-content.drop-cap > p:first-of-type:first-letter {
-    margin: 0 0.2em 0 0;
-    font-size: 3.1em;
-    float: left;
-    line-height: 1;
-    margin-left: -1px;
-    font-weight: 700;
+	margin: 0 0.2em 0 0;
+	font-size: 3.1em;
+	float: left;
+	line-height: 1;
+	margin-left: -1px;
+	font-weight: 700;
 }
 
 .has-serif-body.post-template .gh-content.drop-cap > p:first-of-type:first-letter {
-    font-size: 3.2em;
+	font-size: 3.2em;
 }
 
 /* Add a small margin between a heading and paragraph after it */
@@ -1316,112 +1316,112 @@ unless a heading is the very first element in the post content */
 
 /* A larger margin before/after dividers, blockquotes and embeds */
 .gh-content > :is(hr, blockquote, iframe) {
-    position: relative;
-   	margin-top: 15px;
+	position: relative;
+	margin-top: 15px;
 }
 
 .gh-content > :is(hr, blockquote, iframe) + * {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* Now the content typography styles */
 .gh-content h1 {
-    font-size: calc(2.2em * var(--factor, 1));
+	font-size: calc(2.2em * var(--factor, 1));
 }
 
 .gh-content h2 {
-    font-size: calc(1.6em * var(--factor, 1));
+	font-size: calc(1.6em * var(--factor, 1));
 }
 
 .gh-content h3 {
-    font-size: calc(1.3em * var(--factor, 1));
+	font-size: calc(1.3em * var(--factor, 1));
 }
 
 .gh-content a {
-    color: var(--ghost-accent-color);
+	color: var(--ghost-accent-color);
 }
 
 .gh-content .kg-callout-card .kg-callout-text,
 .gh-content .kg-toggle-card .kg-toggle-content > :is(ul, ol, p) {
-    font-size: 0.95em;
+	font-size: 0.95em;
 }
 
 .gh-content :is(ul, ol) {
-    padding-left: 28px;
+	padding-left: 28px;
 }
 
 .gh-content :is(li + li, li :is(ul, ol)) {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 .gh-content ol ol li {
-    list-style-type: lower-alpha;
+	list-style-type: lower-alpha;
 }
 
 .gh-content ol ol ol li {
-    list-style-type: lower-roman;
+	list-style-type: lower-roman;
 }
 
 .gh-content hr {
-    width: 100%;
-    height: 1px;
-    background-color: var(--color-border);
-    border: 0;
+	width: 100%;
+	height: 1px;
+	background-color: var(--color-border);
+	border: 0;
 }
 
 .gh-content .gh-table {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 .gh-content .gh-table table {
-    width: 100%;
-    font-size: 1.5rem;
-    white-space: nowrap;
-    vertical-align: top;
-    border-spacing: 0;
-    border-collapse: collapse;
+	width: 100%;
+	font-size: 1.5rem;
+	white-space: nowrap;
+	vertical-align: top;
+	border-spacing: 0;
+	border-collapse: collapse;
 }
 
 .gh-content .gh-table table th {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--color-darkgrey);
-    text-align: left;
-    text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: var(--color-darkgrey);
+	text-align: left;
+	text-transform: uppercase;
 }
 
 .gh-content .gh-table table :is(th, td),
 .gh-content .gh-table table td {
-    padding: 6px 12px;
-    border-bottom: 1px solid var(--color-border);
+	padding: 6px 12px;
+	border-bottom: 1px solid var(--color-border);
 }
 
 .gh-content .gh-table table :is(th, td):first-child {
-    padding-left: 0;
+	padding-left: 0;
 }
 
 .gh-content .gh-table table :is(th, td):last-child {
-    padding-right: 0;
+	padding-right: 0;
 }
 
 .gh-content pre {
-    overflow: auto;
-    padding: 16px;
-    font-size: 1.5rem;
-    line-height: 1.5em;
-    background: var(--color-lighter-gray);
-    border-radius: 6px;
+	overflow: auto;
+	padding: 16px;
+	font-size: 1.5rem;
+	line-height: 1.5em;
+	background: var(--color-lighter-gray);
+	border-radius: 6px;
 }
 
 .gh-content :not(pre) > code {
-    vertical-align: baseline;
-    padding: 0.15em 0.4em;
-    font-weight: 400;
-    font-size: 0.95em;
-    line-height: 1em;
-    background: var(--color-lighter-gray);
-    border-radius: 0.25em;
+	vertical-align: baseline;
+	padding: 0.15em 0.4em;
+	font-weight: 400;
+	font-size: 0.95em;
+	line-height: 1em;
+	background: var(--color-lighter-gray);
+	border-radius: 0.25em;
 }
 
 /* 16. Cards
@@ -1430,170 +1430,170 @@ unless a heading is the very first element in the post content */
 /* Add extra margin before/after any cards, except for when immediately preceeded by a heading */
 
 .gh-content :not(.kg-card):not(table):not([id]) + :is(.kg-card, table) {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 .gh-content :is(.kg-card, table) + :not(.kg-card):not(table):not([id]) {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 .gh-content :not(.kg-card):not([id]) + .kg-card.kg-width-full {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 .gh-content .kg-card.kg-width-full + :not(.kg-card):not([id]) {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 /* Image */
 
 .kg-image {
-    margin-right: auto;
-    margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* Embed */
 
 .kg-embed-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 
 /* Gallery */
 
 .kg-image[width][height],
 .kg-gallery-image {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .kg-image-card a:hover,
 .kg-gallery-image a:hover {
-    opacity: 1 !important;
+	opacity: 1 !important;
 }
 
 /* Toggle */
 
 .kg-card.kg-toggle-card .kg-toggle-heading-text {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0;
 }
 
 /* Callout */
 
 .kg-callout-card.kg-card {
-    border-radius: 0.25em;
+	border-radius: 0.25em;
 }
 
 /* Blockquote */
 
 blockquote:not([class]) {
-    padding-left: 2rem;
-    border-left: 4px solid var(--ghost-accent-color);
+	padding-left: 2rem;
+	border-left: 4px solid var(--ghost-accent-color);
 }
 
 blockquote.kg-blockquote-alt {
-    font-style: normal;
-    font-weight: 400;
-    color: var(--color-secondary-text);
+	font-style: normal;
+	font-weight: 400;
+	color: var(--color-secondary-text);
 }
 
 /* Button */
 
 .kg-card.kg-button-card .kg-btn {
-    height: unset;
-    padding: .6em 1.2em;
-    text-align: center;
-    font-size: 1em;
-    line-height: 1.2em;
+	height: unset;
+	padding: .6em 1.2em;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.2em;
 }
 
 /* Bookmark */
 
 .kg-bookmark-card .kg-bookmark-container {
-    border-radius: 0.25em !important;
+	border-radius: 0.25em !important;
 }
 
 .kg-bookmark-card .kg-bookmark-container:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 .kg-bookmark-card a.kg-bookmark-container,
 .kg-bookmark-card a.kg-bookmark-container:hover {
-    background: var(--background-color) !important;
-    color: var(--color-darker-gray) !important;
+	background: var(--background-color) !important;
+	color: var(--color-darker-gray) !important;
 }
 
 .kg-bookmark-card .kg-bookmark-content {
-    padding: 1.15em;
+	padding: 1.15em;
 }
 
 .kg-bookmark-card .kg-bookmark-title {
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 .kg-bookmark-card .kg-bookmark-description {
-    max-height: none;
-    margin-top: 0.3em;
-    font-size: 0.8em;
+	max-height: none;
+	margin-top: 0.3em;
+	font-size: 0.8em;
 }
 
 .kg-bookmark-card .kg-bookmark-metadata {
-    font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .kg-bookmark-card .kg-bookmark-thumbnail img {
-    border-radius: 0 0.2em 0.2em 0;
+	border-radius: 0 0.2em 0.2em 0;
 }
 
 /* Product */
 
 .kg-product-card.kg-card .kg-product-card-image {
-    margin-bottom: 12px;
-    width: 100%;
+	margin-bottom: 12px;
+	width: 100%;
 }
 
 .kg-product-card.kg-card a.kg-product-card-button {
-    height: 2.8em;
-    margin-top: 12px;
+	height: 2.8em;
+	margin-top: 12px;
 }
 
 /* File */
 
 .kg-file-card.kg-card .kg-file-card-container {
-    padding: 0.6em;
+	padding: 0.6em;
 }
 
 .kg-file-card.kg-card .kg-file-card-contents {
-    margin: 4px 8px 6px;
+	margin: 4px 8px 6px;
 }
 
 .kg-file-card.kg-card .kg-file-card-metadata {
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 .kg-file-card.kg-card .kg-file-card-filesize::before {
-    margin-right: 6px;
-    margin-left: 6px;
+	margin-right: 6px;
+	margin-left: 6px;
 }
 
 /* Caption */
 
 figcaption {
-    margin-top: 12px;
-    text-align: center;
+	margin-top: 12px;
+	text-align: center;
 }
 
 .kg-card.kg-width-full figcaption {
-    padding: 0 16px;
+	padding: 0 16px;
 }
 
 figcaption a {
-    color: var(--ghost-accent-color);
-    text-decoration: underline;
+	color: var(--ghost-accent-color);
+	text-decoration: underline;
 }
 
 
@@ -1601,7 +1601,7 @@ figcaption a {
 /* ---------------------------------------------------------- */
 
 .gh-comments {
-    margin-top: 48px;
+	margin-top: 48px;
 }
 
 .article-comments {
@@ -1614,108 +1614,108 @@ figcaption a {
 /* ---------------------------------------------------------- */
 
 .post-template .gh-container {
-    margin-top: 120px;
+	margin-top: 120px;
 }
 
 .post-template .gh-container-inner {
-    display: block;
+	display: block;
 }
 
 .post-template .gh-container.is-grid .gh-feed {
-    grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .post-template .gh-container .gh-container-title {
-    display: block;
+	display: block;
 }
 
 /* 19. Archive
 /* ---------------------------------------------------------- */
 
 .gh-archive {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    gap: var(--grid-gap);
-    margin-block: 80px 24px;
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	gap: var(--grid-gap);
+	margin-block: 80px 24px;
 }
 
 .gh-archive.has-image {
-    margin-top: 48px;
+	margin-top: 48px;
 }
 
 .gh-archive-inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--grid-gap);
-    grid-column: 1 / -1;
-    padding-bottom: clamp(40px, 2.73vw + 29.09px, 64px);
-    border-bottom: 1px solid var(--color-border);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--grid-gap);
+	grid-column: 1 / -1;
+	padding-bottom: clamp(40px, 2.73vw + 29.09px, 64px);
+	border-bottom: 1px solid var(--color-border);
 }
 
 .gh-archive.has-image .gh-archive-inner {
-    align-items: center;
-    grid-column: 1 / -1;
+	align-items: center;
+	grid-column: 1 / -1;
 }
 
 .gh-archive:not(.has-sidebar):not(.has-image) .gh-archive-inner {
-    grid-column: 3 / span 12;
+	grid-column: 3 / span 12;
 }
 
 .gh-archive .gh-article-image {
-    grid-column: auto;
-    margin-top: 0;
+	grid-column: auto;
+	margin-top: 0;
 }
 
 :is(.tag-template, .author-template) .gh-container {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .author-template .gh-archive-inner {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    gap: 24px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	gap: 24px;
 }
 
 .author-template .gh-article-image {
-    margin-top: 0;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
+	margin-top: 0;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 .author-template .gh-article-title {
-    font-size: 3.6rem;
+	font-size: 3.6rem;
 }
 
 .gh-author-meta {
-    display: flex;
-    gap: 10px;
-    margin-top: 14px;
-    font-size: 1.5rem;
-    font-weight: 550;
-    color: var(--color-secondary-text);
+	display: flex;
+	gap: 10px;
+	margin-top: 14px;
+	font-size: 1.5rem;
+	font-weight: 550;
+	color: var(--color-secondary-text);
 }
 
 .gh-author-meta a {
-    color: inherit;
+	color: inherit;
 }
 
 .gh-author-social {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    padding-left: 3px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding-left: 3px;
 }
 
 .gh-author-social svg {
-    width: 20px;
-    height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 @media (max-width: 1199px) {
-    .gh-archive {
-        display: block;
-    }
+	.gh-archive {
+		display: block;
+	}
 }
