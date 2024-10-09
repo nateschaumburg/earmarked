@@ -94,6 +94,10 @@ a:active {
 	outline: 0;
 }
 
+img {
+	width: 100%;
+}
+
 a img {
 	border: 0;
 }
@@ -1225,6 +1229,15 @@ created within the Ghost editor. */
 
 .kg-width-full img {
 	width: 100%;
+}
+
+.gh-feature-image {
+	display: block;
+	margin-top: 51px;
+}
+
+.gh-feature-image a {
+	display: block;
 }
 
 .gh-viewport {
