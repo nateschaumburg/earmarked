@@ -746,6 +746,14 @@ Menu
 		display: block;
 		float: none;
 	}
+
+	.search-toggle {
+		top: 5px;
+	}
+
+	.search-toggle:before {
+		font-size: 15px;
+	}
 }
 
 /* Social Links */
