@@ -95,10 +95,12 @@ a:active {
 }
 
 img {
+	height: auto;
 	width: 100%;
 }
 
 a img {
+	display: block;
 	border: 0;
 }
 
@@ -1474,9 +1476,12 @@ unless a heading is the very first element in the post content */
 
 /* Image */
 
-.kg-image {
+.kg-image img {
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
 }
 
 /* Embed */
