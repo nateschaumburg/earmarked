@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 24px; 
+	font-size: 24px;
 }
 
 h2 {
@@ -600,9 +600,9 @@ Masthead
 	max-width: 100%;
 	overflow: hidden;
 	min-height: 250px;
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
@@ -1181,8 +1181,6 @@ Footer
 	position: relative;
 	margin: 20px 0 0 0;
 }
-ht: 1.6em;
-}
 
 /* Create some space to the right for the share links */
 .post-footer .author {
@@ -1234,7 +1232,6 @@ ht: 1.6em;
 	display: inline-block;
 	color: #000;
 	font-size: 19px;
-	margin:;
 }
 
 .older-posts {
