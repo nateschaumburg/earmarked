@@ -368,9 +368,6 @@ input[type="submit"] {
 	border: 1px solid #000;
 	color: white;
 	cursor: pointer;
-	/* Improves usability and consistency of cursor style between image-type 'input' and others */
-	-webkit-appearance: button;
-	/* Corrects inability to style clickable 'input' types in iOS */
 }
 
 @media screen and (max-width: 767px) {
@@ -417,11 +414,6 @@ input[type="radio"] {
 	padding: 0;
 	/* Addresses excess padding in IE8/9 */
 	margin: 0 5px 0 0;
-}
-
-input[type="search"] {
-	-webkit-appearance: textfield;
-	/* Addresses appearance set to searchfield in S5, Chrome */
 }
 
 input[type="search"]::-webkit-search-decoration {
