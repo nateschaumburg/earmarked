@@ -4,7 +4,7 @@ Earmarked by [Refueled](http://refueled.net).
 Earmarked is a clean, lightweight theme that is a perfect starting point for blogs.
 
 ## Live Demo
-[Live Demo](https://earmarked-demo.refueled.link/)
+[Live Demo](https://refueled.net/demos/earmarked/)
 
 ## Files to edit
 
